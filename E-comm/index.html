@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Comm</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Luxurious+Roman&family=Open+Sans:wght@500&family=Playfair+Display:wght@500&family=Poppins:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- Boostart stleshid -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- icon awesome -->
+    <script src="https://kit.fontawesome.com/97c07cce36.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: 'BioRhyme', serif;
+
+            font-family: 'Luxurious Roman', cursive;
+
+            font-family: 'Open Sans', sans-serif;
+
+            font-family: 'Playfair Display', serif;
+
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand container" href="#">
+                    <h3>Online platfrom</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Contac
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Contac</a></li>
+                                <li><a class="dropdown-item" href="#">Conntac </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- slider -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <a class="btn btn-light" target="_blank" href="www.google.com">Pay Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner.png" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        <a class="btn btn-light" target="_blank" href="www.google.com">Pay Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner.png" class="d-block w-100 h-70" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <a class="btn btn-light" target="_blank" href="www.google.com">Pay Now</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <section class="container m-3  ">
+            <div class="d-flex mt-5 d-flex align-items-center">
+                <div class="flex-shrink col-sm-0">
+                    <img src="images/banner02.png" alt="...">
+                </div>
+                <div class="flex-grow-1 ms-5">
+                    <h3>Programe Example</h3>
+                    <p>This is some content from a media component. You can replace this with any content and adjust it
+                        as
+                        needed. thi is the town hall chittagong and the most popular convension cinter.</p>
+                    <a class="btn btn-primary" href="">Example About</a>
+                </div>
+            </div>
+        </section>
+        <h1 class="d-flex justify-content-center mt-5">Our Package/Offer</h1>
+        <!-- Cardes sty -->
+        <section class="container mt-5">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">$35</h2>
+                            <h4 class="card-title">Food</h4>
+                            <p class="card-text">This is a longer card with supporting text below as a.</p>
+                            <ul>
+                                <li>Rice</li>
+                                <li>Barger</li>
+                                <li>Birani</li>
+                                <li>Pizza</li>
+                                <li>Drink</li>
+                                <li>Cocacola</li>
+                            </ul>
+                            <a class="btn btn-secondary d-flex align-items-center rounded-pill" href="">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">$50</h2>
+                            <h4 class="card-title">Electronics</h4>
+                            <p class="card-text">This is a Poor man site. all foots are $50</p>
+                            <ul>
+                                <li>Fan</li>
+                                <li>Tv</li>
+                                <li>Monitor</li>
+                                <li>cable</li>
+                                <li>ware</li>
+                                <li>more</li>
+                            </ul>
+                            <a class="btn btn-secondary d-flex align-items-center rounded-pill" href="">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body bg-primary rounded">
+                            <h2 class="card-title">$150</h2>
+                            <h4 class="card-title">Mobile</h4>
+                            <p class="card-text">This is a longer card with supporting text below.</p>
+                            <ul>
+                                <li>Samsung</li>
+                                <li>OPPO</li>
+                                <li>Nokia</li>
+                                <li>i-Phone</li>
+                                <li>Dumbo phone</li>
+                                <li>Symphoni</li>
+                            </ul>
+                            <a class="btn btn-dark d-flex rounded-pill" href="">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">$350</h2>
+                            <h4 class="card-title">Computer</h4>
+                            <p class="card-text">This is a longer card with supporting text below as.</p>
+                            <ul>
+                                <li>HP</li>
+                                <li>Dell</li>
+                                <li>walton</li>
+                                <li>samsung</li>
+                                <li>Mackbook</li>
+                                <li>intel</li>
+                            </ul>
+                            <a class="btn btn-secondary d-flex align-items-center rounded-pill" href="">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h1 class="d-flex justify-content-center mt-5">Happy Claint's Site</h1>
+        <!-- Claints Ditels -->
+        <section class="container mt-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-80">
+                        <div class="card-body">
+                            <p class="card-text">This is a longer card with supporting text below as a natural.this is
+                                Claint </p>
+                        </div>
+                        <img src="images/person 1.png" class="card-img-top rounded mx-auto d-block w-50" alt="...">
+                        <div class="card-body card-title ms-5">
+                            <h5 class="d-flex justify-content-center">Habib Ullah</h5>
+                            <p class="d-flex justify-content-center">Assisten</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-80">
+                        <div class="card-body">
+                            <p class="card-text">This is a short card.lead-in
+                                to additional content. This content is a little bit.</p>
+                        </div>
+                        <img src="images/person 2.png" class="card-img-top rounded mx-auto d-block w-50" alt="...">
+                        <div class="card-body card-title ms-5">
+                            <h5 class="d-flex justify-content-center">Abdur Razzak</h5>
+                            <p class="d-flex justify-content-center">Assisten</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col align-items-center">
+                    <div class="card h-80">
+                        <div class="card-body">
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in.
+                            </p>
+                        </div>
+                        <img src="images/person 3.png" class="card-img-top rounded mx-auto d-block w-50" alt="...">
+                        <div class="card-body  card-title ms-5">
+                            <h5 class="d-flex justify-content-center">Roman Man</h5>
+                            <p class="d-flex justify-content-center">Assisten</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h1 class="d-flex justify-content-center mt-5 align-items-center"> Asked Question/SMS</h1>
+        <section class="container mt-5 d-flex justify-content-start ">
+            <div class="ms-5 border border-success align-items-center">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                How to use This website?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the go to the toilAT and jdfg,m dfjzx xcb. This is the first item's
+                                accordion
+                                body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                How to pay by international card?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                this is a also comfortable Convenction Cinter Of the wOrld This is the second item's
+                                accordion
+                                body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                How to Contact with us?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the Vollaintear Contact Number is 017176643442. This is the third item's
+                                accordion
+                                body. Nothing more exciting happening here in terms of content, but just filling up the
+                                space to make it look, at least at first glance, a bit more representative of how this
+                                would look in a real-world application.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-5">
+                <img class="w-50" src="images/people.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div class="container bg-dark mt-5 text-white  ">
+                <div class="d-flex align-items-center">
+                    <p class="center"> This Website Make By @Afran</p>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class=" d-flex justify-content-between flex-column mb-3">
+                        <h5>Get The App</h5>
+                        <div class="">
+                            <a class="btn btn-dark border border-1" href=""><i
+                                    class="fab fa-google-play border border-White mt-3"></i>Google Playstore</a>
+                        </div>
+                        <div class="mt-2 me-5">
+                            <a class="btn btn-dark border border-1" href=""><i
+                                    class="fab fa-android border border-White"></i>Android App</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- boostart js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
